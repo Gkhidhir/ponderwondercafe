@@ -611,8 +611,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🍵 <b>Welcome to Ponder Wonder Cafe!</b>\n\n"
         "Fresh matcha drinks, made for collection.\n\n"
         "🕖 Opening hours: 7:00am – 10:00pm\n"
-        "🏠 Collection only — no delivery\n\n"
-        "Tap below to start your order.",
+        "🏠 Yishun Central Blk 322 #03-253\n\n"
         parse_mode="HTML",
         reply_markup=main_keyboard(is_admin),
     )
@@ -853,8 +852,7 @@ async def callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"💳 <b>Payment for Order #{order_id}</b>\n\n"
             f"Total: <b>${total:.2f}</b>\n"
             f"Collection: <b>{collection}</b>\n\n"
-            "Please scan the PayNow QR code below to pay.\n\n"
-            "After payment, tap <b>I've Paid</b>. You can also send your payment screenshot in this chat."
+            "Please scan the PayNow QR code and send your payment screenshot in this chat."
         )
 
         if os.path.exists(QR_PATH):
