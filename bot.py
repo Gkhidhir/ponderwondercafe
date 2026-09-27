@@ -611,7 +611,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🍵 <b>Welcome to Ponder Wonder Cafe!</b>\n\n"
         "Fresh matcha drinks, made for collection.\n\n"
         "🕖 Opening hours: 7:00am – 10:00pm\n"
-        "🏠 Yishun Central Blk 322 #03-253\n\n"
+        "🏠 Yishun Central Blk 322 #03-253\n\n",
         parse_mode="HTML",
         reply_markup=main_keyboard(is_admin),
     )
