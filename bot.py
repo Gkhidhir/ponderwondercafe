@@ -966,7 +966,7 @@ async def callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "<b>Thank you for your support! 🍵💚</b>\n\n"
                 f"Order #{order_id} has been collected and is now completed.\n\n"
                 "We hope you enjoyed your drink! If you enjoyed it, tag us on social media "
-                "<b>@pwhbc</b>. We'd love to see it! ✨"
+                "<b>@powderwondercafe</b>. We'd love to see it! ✨"
             )
         else:
             customer_message = f"{label} — <b>Order #{order_id}</b>\n\nWe'll keep you updated."
