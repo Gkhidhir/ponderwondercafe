@@ -4,8 +4,7 @@ Telegram ordering bot for Ponder Wonder Cafe.
 
 ## New Telegram bot
 Create the new bot with BotFather and use a username ending in `bot`, for example:
-- `@ponderwondercafe_bot`
-- `@ponderwondercafebot`
+- `@PonderWonderCafeBot`
 
 The actual username must be available in Telegram.
 
