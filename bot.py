@@ -20,7 +20,7 @@ OPEN_TIME = time(7, 0)
 CLOSE_TIME = time(22, 0)
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN_CHAT_IDS = int(os.environ.get("ADMIN_CHAT_IDS", "0"))
+ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID", "0"))
 DB_PATH = os.environ.get("DB_PATH", "orders.db")
 QR_PATH = os.environ.get("QR_PATH", "paynow_qr.png")
 
